@@ -3,7 +3,7 @@ package model;
 public class Pessoa {
 	private String nome;
 	private String sobrenome;
-	
+	private String idade;
 	public Pessoa() {
 		// TODO Auto-generated constructor stub
 	}
@@ -35,5 +35,20 @@ public class Pessoa {
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
 	}
+
+	/**
+	 * @return the idade
+	 */
+	public String getIdade() {
+		return idade;
+	}
+
+	/**
+	 * @param idade the idade to set
+	 */
+	public void setIdade(String idade) {
+		this.idade = idade;
+	}
+	
 	
 }
