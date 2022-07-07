@@ -1,9 +1,14 @@
 package model;
 
+import java.sql.Date;
+
 public class Pessoa {
 	private String nome;
 	private String sobrenome;
 	private int idade;
+	
+	private Date dtNascimento;
+	
 	public Pessoa() {
 		// TODO Auto-generated constructor stub
 	}
@@ -48,6 +53,14 @@ public class Pessoa {
 	 */
 	public void setIdade(int idade) {
 		this.idade = idade;
+	}
+
+	public Date getDtNascimento() {
+		return dtNascimento;
+	}
+
+	public void setDtNascimento(Date dtNascimento) {
+		this.dtNascimento = dtNascimento;
 	}
 	
 	
